@@ -104,6 +104,82 @@ footer{border-top:1px solid #392347;background:#07040a}
 @media(max-width:390px){.logo{font-size:20px}.nav .btn{padding:9px 11px;font-size:10px}.product img{height:130px}.product-info{padding:11px}.add{width:32px;height:32px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
+
+/* STIVY SIGNATURE EXPERIENCE — nova camada visual editorial */
+:root{--stivy-lilac:#e2b7ff;--stivy-berry:#4e176c;--stivy-ink:#08040d}
+body{background-color:var(--stivy-ink);background-image:radial-gradient(ellipse at 50% 0%,#351044 0,transparent 33%),radial-gradient(ellipse at 100% 48%,#1d0d29 0,transparent 27%)}
+.top-promo{font-size:10px;letter-spacing:2px;padding:10px 14px;background:linear-gradient(90deg,#3c0c56,#922bd1 45%,#50106e);position:relative;overflow:hidden}
+.top-promo:after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 25%,#ffffff16 50%,transparent 75%);pointer-events:none}
+.hero{min-height:650px;grid-template-columns:1fr 1.05fr;gap:0}
+.hero-copy{padding:90px 0 85px;max-width:610px}
+.hero .eyebrow{border:1px solid #c45cff55;border-radius:999px;padding:9px 13px;background:#1b0d27;width:max-content;max-width:100%;letter-spacing:2px}
+.hero h1{font-size:clamp(54px,7vw,92px);line-height:.88;letter-spacing:-5px;margin:27px 0 24px;text-wrap:balance}
+.hero h1 em{background:linear-gradient(110deg,#f0d9ff,#bd6cff 60%,#8e2ed1);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}
+.hero p{font-size:16px;line-height:1.85;max-width:440px;color:#d7c9df}
+.hero-photo{height:590px;position:relative;margin-right:-4.15vw;align-self:center}
+.hero-photo:before{content:"";position:absolute;inset:8% 4% 8% 12%;border:1px solid #d7a0ff4a;border-radius:30px;transform:rotate(3deg);z-index:-1}
+.hero-photo img{border-radius:28px 0 0 28px;mask-image:linear-gradient(90deg,transparent 0%,#000 12%,#000 100%);filter:saturate(1.18) contrast(1.06)}
+.hero-tag{right:6%;bottom:8%;border-radius:16px;background:#100717e8;border:1px solid #b96be788;box-shadow:0 20px 60px #0009}
+.hero-stamp{position:absolute;top:9%;right:8%;width:106px;height:106px;border:1px solid #d7a0ff99;border-radius:50%;display:grid;place-content:center;text-align:center;background:#16091edb;backdrop-filter:blur(12px);font-size:10px;font-weight:800;letter-spacing:1.2px;line-height:1.5;transform:rotate(9deg);box-shadow:0 0 35px #9c35d833}
+.hero-stamp strong{font-size:21px;color:#e2b7ff}
+.hero-underline{display:block;width:94px;height:4px;border-radius:9px;background:linear-gradient(90deg,#9d31dc,#e2b7ff);margin-top:25px}
+.hero-stats{display:flex;gap:28px;margin-top:34px;flex-wrap:wrap}
+.hero-stat{border-left:2px solid #a744dc;padding-left:12px}
+.hero-stat strong{display:block;font-family:"Space Grotesk",sans-serif;font-size:19px}
+.hero-stat span{font-size:10px;color:#b9a9c3;letter-spacing:.8px;text-transform:uppercase}
+.perks{margin-top:0;border-radius:0 0 20px 20px;background:linear-gradient(100deg,#1b0e26,#100916);padding:26px 10px;border-top:1px solid #693a7d}
+.perk b{font-size:28px}
+.section-head .eyebrow,.builder .eyebrow{margin-bottom:14px}
+.section-head{position:relative}
+.menu-intro{max-width:650px}
+.menu-chip{display:inline-flex;border:1px solid #5b3470;border-radius:999px;padding:9px 13px;color:#e2b7ff;background:#170d20;font-size:10px;letter-spacing:1px;text-transform:uppercase;font-weight:800}
+.product{border-radius:19px;background:linear-gradient(145deg,#20122b,#100916 72%);box-shadow:0 18px 45px #0004}
+.product .product-image-wrap{position:relative;overflow:hidden;background:#21112c}
+.product img{height:245px;transition:transform .55s cubic-bezier(.2,.8,.2,1);filter:saturate(1.08)}
+.product:hover img{transform:scale(1.07)}
+.product .product-info{padding:20px}
+.product .product-info h3{font-size:17px}
+.product .price{font-family:"Space Grotesk",sans-serif;font-size:19px;color:#f0d8ff}
+.product .product-tag{position:absolute;top:13px;left:13px;z-index:1;background:#f0d8ff;color:#250d33;border-radius:999px;padding:7px 10px;font-size:9px;letter-spacing:1px;font-weight:900;text-transform:uppercase}
+.product .product-desc{font-size:12px;min-height:40px}
+.product .product-bottom{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #392347;padding-top:13px;margin-top:14px}
+.product .add{flex:0 0 40px;border-radius:13px;width:40px;height:40px;font-size:22px}
+.menu-banner{position:relative;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;margin-top:30px;padding:28px 32px;border:1px solid #6e3788;border-radius:20px;overflow:hidden;background:radial-gradient(ellipse at 80% 50%,#7720a744,transparent 45%),linear-gradient(110deg,#21102e,#110817)}
+.menu-banner:after{content:"STIVY";position:absolute;right:10%;top:50%;transform:translateY(-50%);font-family:"Space Grotesk",sans-serif;font-size:clamp(70px,11vw,140px);font-weight:800;color:#ffffff06;pointer-events:none}
+.menu-banner h3{font-size:clamp(22px,3vw,32px);letter-spacing:-1px;margin:8px 0}
+.menu-banner p{font-size:13px;color:#cbbbd5;line-height:1.7;margin:0;max-width:570px}
+.menu-banner .btn{position:relative;z-index:1;white-space:nowrap}
+.builder{position:relative;overflow:hidden}
+.builder:before{content:"";position:absolute;width:420px;height:420px;border:1px solid #a342d722;border-radius:50%;right:-160px;top:-160px;pointer-events:none}
+.builder-image{position:relative}
+.builder-image:before{content:"AÇAÍ\A STIVY";white-space:pre;position:absolute;z-index:1;left:-15px;bottom:24px;padding:15px 20px;background:#100717e8;border:1px solid #b96be788;border-radius:12px;font-family:"Space Grotesk",sans-serif;font-weight:800;font-size:17px;line-height:1.2;box-shadow:0 12px 30px #0008}
+.service-card{position:relative;overflow:hidden}
+.service-card:after{content:"";position:absolute;width:100px;height:100px;border:1px solid #b35be51f;border-radius:50%;right:-32px;top:-32px}
+.reviews .eyebrow{margin-bottom:12px}
+footer .logo{font-size:28px}
+footer .footer-row{padding-bottom:24px}
+.cart-fab{padding:16px 22px;border-radius:16px}
+@media(max-width:850px){
+ .hero{min-height:auto;grid-template-columns:1fr}
+ .hero-copy{padding:58px 0 25px}
+ .hero h1{font-size:clamp(49px,12vw,76px);letter-spacing:-3.2px}
+ .hero-photo{height:360px;margin:0 -4.4% 10px;align-self:auto}
+ .hero-photo:before{inset:8% 5% 8% 8%;border-radius:22px}
+ .hero-photo img{border-radius:18px;mask-image:linear-gradient(180deg,#000,#000 90%,transparent)}
+ .hero-stamp{width:82px;height:82px;font-size:8px;right:7%;top:7%}
+ .hero-stamp strong{font-size:17px}
+ .hero-stats{gap:18px;margin-top:25px}
+ .perks{border-radius:14px;margin-top:8px}
+ .product img{height:clamp(140px,39vw,200px)}
+ .product .product-info{padding:14px}
+ .product .product-info h3{font-size:15px}
+ .product .price{font-size:16px}
+ .menu-banner{grid-template-columns:1fr;padding:24px}
+ .menu-banner .btn{width:max-content}
+ .builder-image:before{left:10px;bottom:15px}
+}
+@media(max-width:390px){.hero h1{letter-spacing:-2.6px}.hero-stat strong{font-size:17px}.product .product-info{padding:11px}.product .add{width:34px;height:34px;flex-basis:34px}}
+
 </style>
 </head>
 <body>
@@ -117,19 +193,19 @@ footer{border-top:1px solid #392347;background:#07040a}
 <section class="wrap hero" id="inicio">
 <div class="hero-copy"><div class="eyebrow">AÇAÍ STIVY · VÁRZEA GRANDE — MT</div>
 <h1>O VERDADEIRO <em>SABOR DO AÇAÍ</em></h1>
-<p>Mais que um açaí, uma experiência. Açaí cremoso, combinações deliciosas e ingredientes escolhidos para deixar cada colherada especial.</p>
+<p>Mais que um açaí, uma experiência. Açaí cremoso, combinações deliciosas e ingredientes escolhidos para deixar cada colherada especial.</p><span class="hero-underline"></span><div class="hero-stats"><div class="hero-stat"><strong>Do seu jeito</strong><span>Monte sua combinação</span></div><div class="hero-stat"><strong>Várzea Grande</strong><span>MT · Consulte entrega</span></div></div>
 <div class="actions"><a class="btn" href="#cardapio">🛒 &nbsp; PEDIR AGORA</a><a class="btn secondary" href="#" data-whatsapp>◉ &nbsp; CHAMAR NO WHATSAPP</a></div>
 </div>
-<div class="hero-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Acai_bowl_-_A%C3%A7a%C3%AD_na_tigela.jpg" alt="Tigela de açaí com frutas e granola"><div class="hero-tag">✦ Sabor de verdade<br>✦ Do seu jeito<br>✦ Feito para você</div></div>
+<div class="hero-photo"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Acai_bowl_-_A%C3%A7a%C3%AD_na_tigela.jpg" alt="Tigela de açaí com frutas e granola"><div class="hero-tag">✦ Sabor de verdade<br>✦ Do seu jeito<br>✦ Feito para você</div><div class="hero-stamp">AÇAÍ<br><strong>STIVY</strong><br>DESDE SEMPRE</div></div>
 </section>
 <div class="perks wrap"><div class="perk"><b>♧</b>Ingredientes<br>selecionados</div><div class="perk"><b>❄</b>Açaí sempre<br>geladinho</div><div class="perk"><b>♡</b>Monte do<br>seu jeito</div><div class="perk"><b>✧</b>Adicionais e<br>complementos</div><div class="perk"><b>☆</b>Combinações<br>especiais</div></div>
-<section class="section wrap" id="cardapio"><div class="section-head"><div><div class="eyebrow">NOSSO CARDÁPIO</div><h2>ESCOLHA SEU AÇAÍ <em>FAVORITO</em></h2><p class="muted">Escolha sua combinação e adicione ao carrinho.</p></div><span class="muted">Escolha sua combinação favorita</span></div>
+<section class="section wrap" id="cardapio"><div class="section-head"><div class="menu-intro"><span class="menu-chip">CARDÁPIO · AÇAÍ STIVY</span><h2>QUAL VAI SER A SUA <em>ESCOLHA?</em></h2><p class="muted">Cremoso, geladinho e cheio de possibilidades. Encontre seu favorito e personalize a experiência.</p></div></div>
 <div class="products">
-<article class="product"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_de_a%C3%A7a%C3%AD.jpg" alt="Açaí tradicional"><div class="product-info"><h3>Açaí Tradicional</h3><p>Açaí cremoso com granola e banana.</p><div class="price-row"><span class="price">R$ 14,90</span><button class="add" data-add="Açaí Tradicional" data-price="14.90" aria-label="Adicionar açaí tradicional">+</button></div></div></article>
-<article class="product"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_de_Acai_con_frutas.jpg" alt="Açaí especial com frutas"><div class="product-info"><h3>Açaí Especial</h3><p>Frutas frescas e complementos deliciosos.</p><div class="price-row"><span class="price">R$ 17,90</span><button class="add" data-add="Açaí Especial" data-price="17.90" aria-label="Adicionar açaí especial">+</button></div></div></article>
-<article class="product"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_small_acai_bowl..in_a_cup.jpg" alt="Açaí premium"><div class="product-info"><h3>Açaí Premium</h3><p>Uma combinação caprichada para matar a vontade.</p><div class="price-row"><span class="price">R$ 22,90</span><button class="add" data-add="Açaí Premium" data-price="22.90" aria-label="Adicionar açaí premium">+</button></div></div></article>
-<article class="product"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%C3%A7a%C3%AD_na_tigela_-_Acai_bowl.jpg" alt="Açaí no copo"><div class="product-info"><h3>Açaí no Copo</h3><p>Prático, geladinho e perfeito para qualquer hora.</p><div class="price-row"><span class="price">R$ 12,90</span><button class="add" data-add="Açaí no Copo" data-price="12.90" aria-label="Adicionar açaí no copo">+</button></div></div></article>
-</div></section>
+<article class="product"><div class="product-image-wrap"><span class="product-tag">MAIS PEDIDO</span><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_de_a%C3%A7a%C3%AD.jpg" alt="Açaí tradicional" loading="lazy"></div><div class="product-info"><h3>Açaí Tradicional</h3><p class="product-desc">Açaí cremoso com granola e banana.</p><div class="product-bottom"><div class="price-row"><span class="price">R$ 14,90</span><button class="add" data-add="Açaí Tradicional" data-price="14.90" aria-label="Adicionar açaí tradicional">+</button></div></div>
+<article class="product"><div class="product-image-wrap"><span class="product-tag">COM FRUTAS</span><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bowl_de_Acai_con_frutas.jpg" alt="Açaí especial com frutas" loading="lazy"></div><div class="product-info"><h3>Açaí Especial</h3><p class="product-desc">Frutas frescas e complementos deliciosos.</p><div class="product-bottom"><div class="price-row"><span class="price">R$ 17,90</span><button class="add" data-add="Açaí Especial" data-price="17.90" aria-label="Adicionar açaí especial">+</button></div></div>
+<article class="product"><div class="product-image-wrap"><span class="product-tag">LINHA PREMIUM</span><img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_small_acai_bowl..in_a_cup.jpg" alt="Açaí premium" loading="lazy"></div><div class="product-info"><h3>Açaí Premium</h3><p class="product-desc">Uma combinação caprichada para matar a vontade.</p><div class="product-bottom"><div class="price-row"><span class="price">R$ 22,90</span><button class="add" data-add="Açaí Premium" data-price="22.90" aria-label="Adicionar açaí premium">+</button></div></div>
+<article class="product"><div class="product-image-wrap"><span class="product-tag">PRA LEVAR</span><img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%C3%A7a%C3%AD_na_tigela_-_Acai_bowl.jpg" alt="Açaí no copo" loading="lazy"></div><div class="product-info"><h3>Açaí no Copo</h3><p class="product-desc">Prático, geladinho e perfeito para qualquer hora.</p><div class="product-bottom"><div class="price-row"><span class="price">R$ 12,90</span><button class="add" data-add="Açaí no Copo" data-price="12.90" aria-label="Adicionar açaí no copo">+</button></div></div>
+</div><div class="menu-banner"><div><span class="eyebrow">DO SEU JEITO</span><h3>SEU AÇAÍ. SUAS REGRAS.</h3><p>Escolha o tamanho, combine seus acompanhamentos e monte uma mistura com a sua cara.</p></div><a class="btn" href="#monte">MONTAR MEU AÇAÍ ↗</a></div></section>
 <section class="section builder" id="monte"><div class="wrap builder-grid"><div><div class="eyebrow">MONTE DO SEU JEITO</div><h2>SEU AÇAÍ, <em>SUA CRIAÇÃO</em></h2><p class="muted">Escolha o tamanho e seus acompanhamentos favoritos. O valor é atualizado conforme suas escolhas.</p>
 <div class="options"><div class="field"><label for="size">Tamanho</label><select id="size"><option value="12.90">300 ml — R$ 12,90</option><option value="17.90">500 ml — R$ 17,90</option><option value="22.90">700 ml — R$ 22,90</option></select></div>
 <div class="field"><label>Escolha seus adicionais (+ R$ 2,00 cada)</label><div class="checkgrid"><label class="check"><input type="checkbox" value="Banana"> Banana</label><label class="check"><input type="checkbox" value="Morango"> Morango</label><label class="check"><input type="checkbox" value="Granola"> Granola</label><label class="check"><input type="checkbox" value="Leite em pó"> Leite em pó</label><label class="check"><input type="checkbox" value="Leite condensado"> Leite condensado</label><label class="check"><input type="checkbox" value="Paçoca"> Paçoca</label></div></div>
