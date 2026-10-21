@@ -269,6 +269,48 @@ footer{padding:42px 0}
  .cart-fab{right:12px;bottom:12px;padding:13px 16px}
 }
 
+
+/* Ajustes finais de identidade premium — Açaí Stivy */
+:root{--bg:#08050c;--panel:#130b1a;--panel2:#1b1026;--purple:#9225f2;--violet:#cf83ff;--white:#fffaff;--muted:#cbbdd5;--line:#432650}
+body{background:radial-gradient(ellipse at 50% -10%,#30103f 0,transparent 40%),var(--bg)}
+.top-promo{background:linear-gradient(90deg,#56117e,#9722d8,#56117e);letter-spacing:1.6px}
+.topbar{background:rgba(8,5,12,.96);border-bottom-color:#512b61}
+.logo{font-size:28px;letter-spacing:-1.7px}
+.logo .logo-accent{font-style:italic;text-shadow:0 0 24px #a62eff66}
+.hero{min-height:535px;grid-template-columns:1fr 1.05fr;gap:8px}
+.hero:before{background:radial-gradient(ellipse at 74% 42%,#8426a855,transparent 45%),linear-gradient(90deg,#09060d 10%,#09060dce 45%,transparent 76%)}
+.hero-copy{padding:62px 0}
+.hero h1{font-size:clamp(45px,5.7vw,76px);line-height:.94;letter-spacing:-3.4px}
+.hero h1 em{color:#c06aff;text-shadow:0 0 35px #8d20db28}
+.hero-photo{height:520px;margin-right:-4.3%;overflow:hidden}
+.hero-photo img{object-position:center;filter:saturate(1.14) contrast(1.06);border-radius:22px 0 0 22px;mask-image:linear-gradient(90deg,transparent 0%,#000 11%,#000 92%,transparent 100%)}
+.hero-tag{background:#100716e8;border-color:#794294;box-shadow:0 12px 35px #0008}
+.hero-stamp{border-color:#d17cff!important;box-shadow:0 0 30px #a52de733}
+.perks{border-radius:0 0 15px 15px;background:linear-gradient(100deg,#100816,#160b20,#100816);padding:27px 0}
+.perk b{color:#d08bff;text-shadow:0 0 18px #a32fe955}
+.section{padding-top:72px;padding-bottom:72px}
+.menu-chip{background:#21102d;border:1px solid #59326c;border-radius:30px;padding:8px 13px;color:#d7a0ff;font-weight:800;letter-spacing:1.5px}
+.section h2{font-size:clamp(32px,4vw,48px)}
+.product{border-color:#40254e;background:linear-gradient(155deg,#1a1022,#0e0914);box-shadow:0 14px 35px #0002}
+.product:hover{transform:translateY(-6px);border-color:#a74be0;box-shadow:0 18px 40px #0005}
+.product-image-wrap{background:radial-gradient(ellipse at center,#431453,#140b1a)}
+.product img{transition:transform .35s ease;filter:saturate(1.08)}
+.product:hover img{transform:scale(1.045)}
+.product-tag{background:#9225f2;color:white;border-radius:30px;font-weight:900;letter-spacing:.7px}
+.add{background:linear-gradient(140deg,#8c1ee5,#b72cff);border:0;box-shadow:0 5px 18px #9225f244}
+.builder{background:radial-gradient(ellipse at 20% 50%,#2a1037,#100914 62%);border-color:#482754}
+.field select,.field input{border-color:#553366}
+.check{transition:border-color .2s,background .2s}.check:has(input:checked){border-color:#b75cff;background:#271334}
+.service-card{background:linear-gradient(150deg,#1a1022,#100a15);box-shadow:0 12px 28px #0002}
+.service-card b{color:#d08bff}
+.reviews{background:radial-gradient(ellipse at 50% 0,#291035,#0b0710 72%)}
+.review{background:#120b19;border-color:#452853}
+.cart-fab{background:linear-gradient(100deg,#7d16dc,#b72cff);box-shadow:0 12px 35px #8e20d955}
+.btn{transition:transform .2s ease,filter .2s ease,box-shadow .2s ease}
+.btn:hover{box-shadow:0 10px 32px #9e1ce744}
+@media(max-width:850px){.hero{grid-template-columns:1fr;min-height:auto}.hero-copy{padding:48px 0 12px}.hero-photo{height:340px;margin:0 -4.4%;}.hero-photo img{border-radius:0;mask-image:linear-gradient(180deg,#000,#000)}.hero h1{font-size:clamp(43px,9vw,62px)}.perks{border-radius:0}}
+@media(max-width:520px){.logo{font-size:24px}.hero-copy{padding-top:42px}.hero-photo{height:285px}.perk{font-size:10px;padding-inline:4px}.perk b{font-size:21px}.section{padding:52px 0}.products{gap:10px}.product-image-wrap{height:145px}.product img{height:145px}}
+
 </style>
 </head>
 <body>
